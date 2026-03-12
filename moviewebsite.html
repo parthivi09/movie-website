@@ -1,0 +1,153 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>MOVIE WORLD</title>
+        <style>
+            .backg1{
+                background-image:url("1stpgbackground.jpeg");
+                background-size:cover;
+                height:100vh;
+                width:100%;
+                background-position: center;
+                display:flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                text-align: right;
+                margin-top: 0px;
+
+            }
+
+            .front-text{
+                display:flex;
+                flex-direction: column;
+            }
+
+            
+
+            .tagline{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size:30px;
+                font-weight: 10;
+                color:rgb(236, 231, 231);
+                margin-bottom: 10px;
+                margin-top: 0px;
+                text-align: center;
+                
+            }
+
+            .title{
+                
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size :90px;
+                color:#FFD700;
+                font-weight:1000;
+                text-shadow:4px 4px 20px black;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            .buttons{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 110px;
+                margin-top: 90px;
+            }
+
+            .butall{
+              height: 100px;
+              width:165px;
+              font-size: 22px;
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              background-color: rgb(26, 25, 25);
+              color:whitesmoke;
+              vertical-align: center;
+              padding-bottom: 7px;
+              border-radius: 20px;
+              box-shadow: 10px 10px 5px rgb(1,0,0,0.6);
+            }
+
+            .butall:hover{
+                opacity: 0.7;
+            }
+
+            .butall:active{
+                opacity: 0.3;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        
+        <div class="backg1">     
+            <div class="front-text" >
+              <span>
+                <div class="title" style="display: block;" > 
+                    MOVIE
+                </div> 
+                <div class="title" style="display: block;" >
+                    W O R L D 
+                </div>    
+             </span> 
+
+             <p class="tagline">Where stories come alive</p>
+
+             
+
+
+            </div>
+
+            <div class="buttons">
+              <a href="hollywood.html"> 
+                <div class="div1">
+                    <button class="butall" style="border:2px solid rgb(236, 47, 47);">
+                        <p>HOLLYWOOD </p>
+                        <p> &#10132;</p>
+                    </button>
+
+                </div>
+
+              </a>
+               
+              <a href="bollywood.html"> 
+                <div class="div2">
+                    
+                <button class="butall" style="border:2px solid rgba(214, 202, 40, 0.925);">
+                   <p> BOLLYWOOD</p> 
+                   <p> &#10132;</p>
+                </button>
+
+                </div>
+
+              </a>
+
+              <a href="tollywood.html"> 
+                <div class="div3">
+                <button class="butall" style="border:2px solid rgb(37, 37, 168);">
+                    <p>TOLLYWOOD </p>
+                    <p> &#10132;</p>
+                </button>
+
+                </div>
+
+              </a>
+                
+                
+
+             
+
+
+            </div>
+            
+        </div>
+
+
+        
+
+
+        
+
+    </body>
+</html>
